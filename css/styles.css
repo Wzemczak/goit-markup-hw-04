@@ -3,6 +3,9 @@ body {
   color: var(--text-color);
   max-width: 1600px;
 }
+svg:hover {
+  fill: var(--brand-color);
+}
 ul {
   list-style: none;
   margin: 0px;
