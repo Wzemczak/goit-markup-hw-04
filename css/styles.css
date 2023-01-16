@@ -385,10 +385,7 @@ header {
   margin-bottom: 50px;
   margin-top: 94px;
 }
-.footer-links {
-  width: 206px;
-  height: 80px;
-}
+
 .join-us {
   font-family: "Roboto";
   font-weight: 700;
@@ -402,5 +399,14 @@ header {
   margin-top: -120px;
 }
 svg:hover {
-  fill: var(--brand-color) !important;
+  fill: var(--brand-color);
+}
+.links-container {
+  display: flex;
+}
+.footer-links {
+  width: 44px;
+  height: 44px;
+  margin-top: 20px;
+  margin-right: 10px;
 }
