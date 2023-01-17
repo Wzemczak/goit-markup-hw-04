@@ -305,7 +305,7 @@ header {
 .slogan-box {
   display: block;
   margin: 0 auto;
-  background-image: url(/images/img-background.jpg);
+  background-image: url(/images/background.jpg);
 }
 .pictures {
   display: flex;
@@ -352,13 +352,6 @@ header {
   height: 120px;
   justify-content: center;
   align-items: center;
-}
-.social-links {
-  width: 206px;
-  height: 44px;
-}
-.social-links:hover {
-  fill: #2196f3;
 }
 .customers-box {
   display: block;
