@@ -357,13 +357,14 @@ header {
   display: block;
   margin: 0px 0px 94px 205px;
 }
-.costomers-logos {
+.customers-logos {
   width: 170px;
   height: 92px;
   padding: 16px 32px;
   border: 1px solid #afb1b8;
   border-radius: 4px;
   margin-right: 30px;
+  fill: #afb1b8;
 }
 .customers {
   text-align: center;
@@ -391,15 +392,37 @@ header {
   margin-left: 351px;
   margin-top: -120px;
 }
-svg:hover {
+.customers-logos:hover {
   fill: var(--brand-color);
 }
 .links-container {
   display: flex;
+}
+.links {
+  width: 44px;
+  height: 44px;
+  margin-right: 10px;
+  fill: #afb1b8;
 }
 .footer-links {
   width: 44px;
   height: 44px;
   margin-top: 20px;
   margin-right: 10px;
+  fill: #ffffff;
+}
+.circle-footer {
+  fill: rgba(255, 255, 255, 0.1);
+}
+.circle-person {
+  fill: #ffffff;
+}
+.circle-person:hover {
+  fill: var(--brand-color);
+}
+.links:hover {
+  fill: #fff;
+}
+.circle-footer:hover {
+  fill: var(--brand-color);
 }
