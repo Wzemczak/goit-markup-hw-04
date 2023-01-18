@@ -395,9 +395,7 @@ header {
 .customers-logos:hover {
   fill: var(--brand-color);
 }
-.links-container {
-  display: flex;
-}
+
 .links {
   width: 44px;
   height: 44px;
@@ -425,4 +423,7 @@ header {
 }
 .circle-footer:hover {
   fill: var(--brand-color);
+}
+.links-container {
+  display: flex;
 }
