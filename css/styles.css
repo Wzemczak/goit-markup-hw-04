@@ -394,6 +394,7 @@ header {
 }
 .customers-logos:hover {
   fill: var(--brand-color);
+  border-color: var(--brand-color);
 }
 
 .links {
