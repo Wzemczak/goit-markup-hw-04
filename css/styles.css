@@ -427,3 +427,9 @@ header {
 .links-container {
   display: flex;
 }
+.footer-links:hover > .circle-footer {
+  fill: var(--brand-color);
+}
+.links:hover > .circle-person {
+  fill: var(--brand-color);
+}
